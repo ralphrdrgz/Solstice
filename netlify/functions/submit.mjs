@@ -1,3 +1,6 @@
+import { db } from "../../db/index.js";
+import { formSubmissions } from "../../db/schema.js";
+
 export default async (req) => {
   if (req.method !== 'POST') {
     return new Response(null, {
@@ -26,6 +29,13 @@ export default async (req) => {
       headers: { Location: '/index.html?status=error&reason=invalid_email' },
     })
   }
+
+  await db.insert(formSubmissions).values({
+    fullName: full_name,
+    email,
+    inquiry,
+    message,
+  })
 
   return new Response(null, {
     status: 302,
