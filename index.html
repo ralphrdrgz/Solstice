@@ -1,0 +1,309 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Solstice | Landing Page</title>
+        <link rel="icon" type="image/x-icon" href="images/favicon.png" />
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <header class="hero" role="banner">
+            <img
+                src="images/header-logo.png"
+                alt="Solstice logo"
+                class="hero-logo"
+            />
+        </header>
+
+        <main>
+            <section class="container" aria-label="Statement">
+                <div class="statement">
+                    <h1 class="text-center">
+                        Ranch Living,<br />In Rhythm With Nature.<br />
+                        <span>New Homes from the $700s</span>
+                    </h1>
+                    <p class="my-0">
+                        Welcome home to a quieter corner of Littleton. Tucked
+                        along the High Line Canal, Solstice is a boutique
+                        community from Shea Homes, set within a natural
+                        landscape that feels both peaceful and connected. With
+                        Chatfield Lake and the Front Range nearby, Solstice is a
+                        place where getting outside is part of the everyday, and
+                        where each season brings its own rhythm to life.
+                    </p>
+                </div>
+            </section>
+
+            <section
+                class="container card-section px-0"
+                aria-label="Home Collections"
+            >
+                <div class="row cards mx-auto">
+                    <article class="col-md-4 card">
+                        <img
+                            src="images/horizon.jpg"
+                            alt="Horizon Collection home exterior"
+                        />
+                        <div class="card-body">
+                            <h2>
+                                <span>Homes from the $700s</span><br />Horizon
+                                Collection
+                            </h2>
+                            <p>
+                                1,832-3,215 Sq. Ft. | 2-4 Beds | 2.5-3.5 Baths
+                            </p>
+                            <p>
+                                The ease of ranch-style living is elegantly
+                                imagined in these new offerings from the Horizon
+                                Collection by Shea Homes at Solstice. The
+                                designs range from 1,832 to 3,215 square feet,
+                                with gracious kitchens opening onto casual
+                                dining areas, and optional covered patios
+                                providing additional entertaining space
+                                outdoors.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="col-md-4 card">
+                        <img
+                            src="images/reflection.jpg"
+                            alt="Reflection Collection home exterior"
+                        />
+                        <div class="card-body">
+                            <h2>
+                                <span>Homes from the $800s</span
+                                ><br />Reflection Collection
+                            </h2>
+                            <p>
+                                2,369-4,022 Sq. Ft. | 2-4 Beds | 2.5-4.5 Baths
+                            </p>
+                            <p>
+                                These open-concept ranch home designs seamlessly
+                                flow from room to room and from inside to out.
+                                The Reflection Collection from Shea Homes at
+                                Solstice offers six new floorplans from 2,369 to
+                                4,022 square feet, with airy spaciousness and
+                                natural light at nearly every turn.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="col-md-4 card">
+                        <img
+                            src="images/stargaze.jpg"
+                            alt="Stargaze Collection home exterior"
+                        />
+                        <div class="card-body">
+                            <h2>
+                                <span>Homes from the $800s</span><br />Stargaze
+                                Collection
+                            </h2>
+                            <p>2,230-4,429 Sq. Ft. | 2-7 Baths | 2-5 Baths</p>
+                            <p>
+                                Highly rated, known for its spacious, modern
+                                single-family layouts. The Stargaze Collection
+                                by Shea Homes at Solstice offers four floorplans
+                                from 2,230 to 4,400 square feet. Buyers praise
+                                the high-end kitchen finishes, expansive lots,
+                                and access to resort-style outdoor amenities.
+                            </p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <section class="video-container" aria-label="Community video">
+                <video autoplay muted loop playsinline aria-hidden="true">
+                    <source
+                        src="https://v.ftcdn.net/06/33/66/46/700_F_633664664_zX481qCHCTPrU6PpW0bLWtXL23fyiYwd_ST.mp4"
+                        type="video/mp4"
+                    />
+                </video>
+            </section>
+
+            <section
+                class="text-container container mx-auto"
+                aria-label="Brochure CTA"
+            >
+                <h2>Home sweet high line</h2>
+                <p class="alt-color">
+                    Perfectly situated near the southernmost point of the High
+                    Line Canal, Solstice is a boutique community from Shea
+                    Homes&reg;, rooted in nature, home, and family.
+                </p>
+                <a class="button" href="#">Download Brochure</a>
+            </section>
+
+            <section class="form-section" aria-label="Contact Form">
+                <div class="container">
+                    <h2 class="text-center">Buying a New Home</h2>
+                    <p class="text-center">
+                        You've made the decision to buy a new home, but it's
+                        still hard to know where to start. We're here to help
+                        you understand the path to home ownership, and how to
+                        begin your journey.
+                    </p>
+
+                    <form action="submit.php" method="post">
+                        <div class="form-group">
+                            <label for="full-name">Full Name</label>
+                            <input
+                                type="text"
+                                id="full-name"
+                                name="full_name"
+                                placeholder="Enter your full name"
+                                required
+                            />
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input
+                                    type="email"
+                                    id="email"
+                                    name="email"
+                                    placeholder="Enter your email address"
+                                    required
+                                />
+                            </div>
+
+                            <div class="form-group">
+                                <label for="inquiry">Inquire With Us</label>
+                                <select id="inquiry" name="inquiry" required>
+                                    <option value="" disabled selected>
+                                        Type of Inquiry
+                                    </option>
+                                    <option value="Buy A House">
+                                        Buy A House
+                                    </option>
+                                    <option value="Talk to a Realtor">
+                                        Talk to a Realtor
+                                    </option>
+                                    <option value="Request a Quote">
+                                        Request a Quote
+                                    </option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea
+                                id="message"
+                                name="message"
+                                rows="5"
+                                placeholder="Tell us about yourself or ask a question"
+                            ></textarea>
+                        </div>
+
+                        <div class="form-group text-center">
+                            <button type="submit">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+
+            <div class="container image-divider">
+                <div class="row mx-auto">
+                    <div class="col-md-3 col-6 p-0">
+                        <img
+                            src="images/images01.jpg"
+                            alt="Rocks along the High Line Canal"
+                        />
+                    </div>
+                    <div class="col-md-3 col-6 p-0">
+                        <img
+                            src="images/images02.jpg"
+                            alt="Women laughing outdoors"
+                        />
+                    </div>
+                    <div class="col-md-3 col-6 p-0">
+                        <img
+                            src="images/images03.jpg"
+                            alt="Hot air balloons over the Front Range"
+                        />
+                    </div>
+                    <div class="col-md-3 col-6 p-0">
+                        <img
+                            src="images/images04.jpg"
+                            alt="Elderly couple enjoying the outdoors"
+                        />
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <div class="container footer-content">
+                <div class="image-container text-center">
+                    <img
+                        src="images/Footer-logo.png"
+                        alt="Solstice by Shea Homes logo"
+                    />
+                </div>
+                <small>
+                    <img
+                        src="images/EOH Bug Sostice 1.png"
+                        alt="Equal Housing Opportunity icon"
+                    />
+                    This is not an offer for real estate for sale, nor
+                    solicitation of an offer to buy to residents of any state or
+                    province in which registration and other legal requirements
+                    have not been fulfilled. Pricing does not include options,
+                    elevation, or lot premiums, effective date of publication
+                    and subject to change without notice. All square footages
+                    and measurements are approximate and subject to change
+                    without notice. Features and plans subject to change without
+                    notice. Views not guaranteed and may change over time. Floor
+                    plans, maps and renderings are artist's conception based on
+                    preliminary information, not to scale and subject to change.
+                    Home pictured may not be actual home for sale or actual
+                    model home, but rather a representation of a similar model
+                    or elevation design. Models are not an indication of racial
+                    preference. Trademarks are property of their respective
+                    owners. Equal Housing Opportunity. Copyright &copy;2026,
+                    Shea Homes. All rights reserved. Powered by Milesbrand.
+                </small>
+                <p>
+                    Shea Homes is committed to ensuring digital accessibility
+                    for people with disabilities. We are continually improving
+                    the user experience for everyone and applying the relevant
+                    accessibility standards. We welcome your feedback on the
+                    accessibility of
+                    <a
+                        href="https://www.sheahomes.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >SheaHomes.com</a
+                    >. Please let us know if you encounter accessibility
+                    barriers by emailing
+                    <a href="mailto:info@sheahomes.com">info@sheahomes.com</a>.
+                </p>
+            </div>
+        </footer>
+
+        <script>
+            const params = new URLSearchParams(window.location.search);
+            const status = params.get("status");
+
+            if (status) {
+                const isSuccess = status === "success";
+                const toast = document.createElement("div");
+                toast.className =
+                    "form-toast " +
+                    (isSuccess ? "form-toast--success" : "form-toast--error");
+                toast.textContent = isSuccess
+                    ? "Thank you! Your message has been sent."
+                    : "Something went wrong. Please fill in all fields and try again.";
+                document.body.appendChild(toast);
+
+                setTimeout(() => toast.classList.add("form-toast--hide"), 4000);
+
+                window.history.replaceState({}, "", window.location.pathname);
+            }
+        </script>
+    </body>
+</html>
